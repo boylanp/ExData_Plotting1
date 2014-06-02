@@ -4,5 +4,5 @@ names(t) = c("Date", "Time", "Glob_act_power", "Glob_react_pow", "volt", "inten"
 png(filename = "plot2.png")
 dts = as.POSIXct(paste(t$Date, t$Time), format = "%d/%m/%Y %H:%M:%S")
 plot(dts, t$Glob_act_power, type = 'l', xlab = " ", ylab = "")
-title(xlab = "", ylab = "Global Active Power (kilowatts)")
+title(xlab = "", ylab = "global Active Power (kilowatts)")
 dev.off()
