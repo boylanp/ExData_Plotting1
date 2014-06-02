@@ -15,7 +15,7 @@ plot(dts, t$volt, type = "l", xlab = "datetime", ylab = "Voltage")
 plot(dts, t$m1, type = 'l', col = "black", ylab = "", xlab = "")
 lines(dts, t$m2, type = 'l', col = "red")
 lines(dts, t$m3, type = 'l', col = "blue")
-title(xlab = "", ylab = "energy sub metering")
+title(xlab = "", ylab = "Energy sub metering")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = 1, col = c("black", "red", "blue"), bty = "n")
 
 #Plot 4
