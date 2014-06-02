@@ -4,7 +4,7 @@ names(t) = c("Date", "Time", "Glob_act_power", "Glob_react_pow", "volt", "inten"
 png(filename = "plot3.png")
 #windows()
 dts = as.POSIXct(paste(t$Date, t$Time), format = "%d/%m/%Y %H:%M:%S")
-plot(dts, t$m1, type = 'l', col = "black", ylab = "", xlab = "")
+plot(dts, t$m1, type = 'l', col = "black", ylab = " ", xlab = "")
 lines(dts, t$m2, type = 'l', col = "red")
 lines(dts, t$m3, type = 'l', col = "blue")
 title(xlab = "", ylab = "Energy sub metering")

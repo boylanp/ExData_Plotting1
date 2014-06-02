@@ -6,7 +6,7 @@ png(filename = "plot4.png")
 #windows()
 par(mfrow = c(2, 2))
 #Plot 1
-plot(dts, t$Glob_act_power, type = 'l', xlab = "", ylab = "Global Active Power")
+plot(dts, t$Glob_act_power, type = 'l', xlab = " ", ylab = "Global Active Power")
 
 #Plot 2 
 plot(dts, t$volt, type = "l", xlab = "datetime", ylab = "Voltage")
